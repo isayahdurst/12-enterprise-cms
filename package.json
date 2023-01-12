@@ -1,33 +1,26 @@
 {
+    "dependencies": {
+        "chalk": "4.1.0",
+        "console.table": "^0.10.0",
+        "dotenv": "^16.0.3",
+        "inquirer": "8.2.4",
+        "mysql2": "^2.3.3",
+        "pg": "^8.8.0"
+    },
     "devDependencies": {
         "nodemon": "^2.0.20"
     },
-    "dependencies": {
-        "console.table": "^0.10.0",
-        "dotenv": "^16.0.3",
-        "express": "^4.18.2",
-        "inquirer": "8.2.4",
-        "mysql2": "^2.3.3"
-    },
     "scripts": {
-        "start": "nodemon server.js"
+        "start": "node index.js"
     },
-    "name": "12-enterprise-cms",
-    "description": "",
+    "name": "12-cms",
     "version": "1.0.0",
-    "main": "server.js",
+    "main": "index.js",
     "directories": {
         "lib": "lib"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/isayahdurst/12-enterprise-cms.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/isayahdurst/12-enterprise-cms/issues"
-    },
-    "homepage": "https://github.com/isayahdurst/12-enterprise-cms#readme"
+    "description": ""
 }
