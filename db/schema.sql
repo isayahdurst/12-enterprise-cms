@@ -23,7 +23,7 @@ CREATE TABLE Employees(
     role_id int not null,
     manager_id int,
     foreign key (role_id) references Roles(id) on delete cascade,
-    foreign key (manager_id) references Employees(id)
+    foreign key (manager_id) references Employees(id) on delete set null
 );
 
 
