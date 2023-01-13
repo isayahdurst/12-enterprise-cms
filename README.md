@@ -61,7 +61,7 @@ This command-line application allows users to view and manage the departments, r
 
 ## Video Walkthrough
 
-A video walkthrough of the application can be found [here](https://link...)
+A video walkthrough of the application can be found [here](https://drive.google.com/file/d/1hh5ETH0txUTxCz-gC_lkzwOaYrEDkbXr/view?usp=sharing).
 
 ## About The Project
 
